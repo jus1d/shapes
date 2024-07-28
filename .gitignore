@@ -1,0 +1,5 @@
+# Ignore *.ppm outout
+*.ppm
+
+# Ignore binary
+main
