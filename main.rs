@@ -41,6 +41,7 @@ fn fill_checker_pattern(pixels: &mut [u32], width: usize, height: usize, tile_si
     }
 }
 
+// TODO: add magnifier effect to circle
 #[allow(dead_code)]
 fn fill_circle_with_checker(pixels: &mut [u32], width: usize, height: usize, radius: usize, tile_size: usize, foreground: Color, background: Color) {
     let cx = width as i32;
